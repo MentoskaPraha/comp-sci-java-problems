@@ -1,9 +1,8 @@
-package com.mentoskapraha.comp_sci;
+package com.mentoskapraha.comp_sci.assignments;
 
-import java.util.Scanner;
+import com.mentoskapraha.comp_sci.common.TextInput;
 
 public class NumberReversal {
-  private final static Scanner input = new Scanner(System.in);
 
   public static void main(String[] args){
     //Print intro message
@@ -12,19 +11,7 @@ public class NumberReversal {
     //Run main program loop
     boolean exit = false;
     while (!exit){
-      String number = "";
-
-      //Number input
-      System.out.print("Please input a number: ");
-      boolean validInput = false;
-      while (!validInput) {
-        number = input.nextLine().trim().strip();
-        if (number.matches("[0-9]+")){
-          validInput = true;
-        } else{
-          System.out.print("Invalid Input!\nPlease try again: ");
-        }
-      }
+      String number = TextInput.numberInput(null, null);
 
       //Reverse number
       StringBuilder reverseNumberBuilder = new StringBuilder();
@@ -39,20 +26,8 @@ public class NumberReversal {
       //print result
       System.out.println("Your reversed number (which is " + (isPalindrome ? "" : "not ") + "a palindrome): " + reverseNumber);
 
-      //Exit confirmation
-      boolean validExitInput = false;
-      while (!validExitInput) {
-        System.out.print("Would you like to input another number? [y/N] ");
-        String answer = input.nextLine().trim().strip().toLowerCase();
-        if (answer.equals("y")) {
-          validExitInput = true;
-        } else if (answer.equals("n") || answer.isEmpty()) {
-          validExitInput = true;
-          exit = true;
-        } else {
-          System.out.println("Invalid input, please try again.");
-        }
-      }
+      //Ask if the user wants to exit or not
+      exit = !TextInput.yesNoInput(false, "Would you like to input another number?", null);
     }
 
     System.out.println("Goodbye!\nProgram exited with Exit Code 0");
