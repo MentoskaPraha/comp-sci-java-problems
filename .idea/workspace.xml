@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b973fc8d-d723-4620-a849-8ca369c0c486" name="Changes" comment="Completed Number Reversal.">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/common/TextInput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/NumberReversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/assignments/NumberReversal.java" afterDir="false" />
-    </list>
+    <list default="true" id="b973fc8d-d723-4620-a849-8ca369c0c486" name="Changes" comment="Completed Refactoring of Number Reversal." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,6 +71,26 @@
     "settings.editor.selected.configurable": "preferences.updates"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="NumberReversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mentoskapraha.comp_sci.assignments.NumberReversal" />
+      <module name="coding-tasks.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mentoskapraha.comp_sci.assignments.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.NumberReversal" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -101,13 +116,22 @@
       <option name="project" value="LOCAL" />
       <updated>1725985261432</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Completed Refactoring of Number Reversal.">
+      <option name="closed" value="true" />
+      <created>1725990148144</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1725990148144</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial Setup." />
     <MESSAGE value="Completed Number Reversal." />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Number Reversal." />
+    <MESSAGE value="Completed Refactoring of Number Reversal." />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Refactoring of Number Reversal." />
   </component>
 </project>
