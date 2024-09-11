@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b973fc8d-d723-4620-a849-8ca369c0c486" name="Changes" comment="Finished Voting Eligibility Checker task">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="b973fc8d-d723-4620-a849-8ca369c0c486" name="Changes" comment="Documentation">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/assignments/AgeCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/assignments/PersonalizedGreeting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/assignments/SimpleGreeting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/assignments/SimpleMathOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/assignments/TemperatureCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +74,12 @@
     "Gradle.coding-tasks [:NumberReversal.main()].executor": "Run",
     "Gradle.coding-tasks [:com.mentoskapraha.NumberReversal.main()].executor": "Run",
     "Gradle.coding-tasks [:com.mentoskapraha.comp_sci.NumberReversal.main()].executor": "Run",
+    "Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.AgeCalculator.main()].executor": "Run",
     "Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.NumberReversal.main()].executor": "Run",
+    "Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.PersonalizedGreeting.main()].executor": "Run",
+    "Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.SimpleGreeting.main()].executor": "Run",
+    "Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.SimpleMathOperations.main()].executor": "Run",
+    "Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.TemperatureCalculator.main()].executor": "Run",
     "Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.VotingEligibilityChecker.main()].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -79,7 +90,7 @@
     "settings.editor.selected.configurable": "preferences.updates"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.NumberReversal">
+  <component name="RunManager">
     <configuration name="NumberReversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mentoskapraha.comp_sci.assignments.NumberReversal" />
       <module name="coding-tasks.main" />
@@ -162,7 +173,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726064795540</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Documentation">
+      <option name="closed" value="true" />
+      <created>1726072112468</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1726072112468</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -172,6 +191,7 @@
     <MESSAGE value="Completed Refactoring of Number Reversal." />
     <MESSAGE value="Message from Annabelle" />
     <MESSAGE value="Finished Voting Eligibility Checker task" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished Voting Eligibility Checker task" />
+    <MESSAGE value="Documentation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Documentation" />
   </component>
 </project>
