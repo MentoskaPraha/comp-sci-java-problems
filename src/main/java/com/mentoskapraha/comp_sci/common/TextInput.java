@@ -2,6 +2,13 @@ package com.mentoskapraha.comp_sci.common;
 
 import java.util.Scanner;
 
+/**
+ * This class has useful methods for getting user input.
+ * All methods on it are static so it doesn't need to be
+ * instantiated every time you want to use it, simply call
+ * the method you wish to use.
+ * @author MentoskaPraha
+ */
 public class TextInput {
   private static final Scanner scanner = new Scanner(System.in);
 
@@ -11,6 +18,7 @@ public class TextInput {
    * @param question The prompt that the user will answer yes or no. (optional)
    * @param invalidInputMessage The message that gets displayed if the input is invalid. (optional)
    * @return True if the answer was yes, false if it was no.
+   * @author MentoskaPraha
    */
   public static boolean yesNoInput(boolean defaultAnswerIsYes, String question, String invalidInputMessage){
     //setup variable
@@ -43,6 +51,7 @@ public class TextInput {
    * @param prompt The prompt presented to the user with instructions to input a number. (optional)
    * @param invalidInputPrompt The prompt presented when the user inputs an invalid input. (optional)
    * @return The number as a string
+   * @author MentoskaPraha
    */
   public static String integerInput(String prompt, String invalidInputPrompt){
     //setup variables
@@ -72,6 +81,7 @@ public class TextInput {
    * @param prompt The prompt presented to the user with instructions to input a number. (optional)
    * @param invalidInputPrompt The prompt presented when the user inputs an invalid input(ei the string is blank or empty). (optional)
    * @return The inputted String
+   * @author MentoskaPraha
    */
   public static String stringInput(String prompt, String invalidInputPrompt){
     //setup variables

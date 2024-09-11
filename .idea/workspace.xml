@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b973fc8d-d723-4620-a849-8ca369c0c486" name="Changes" comment="Message from Annabelle">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/assignments/VotingEligibilityChecker.java" afterDir="false" />
+    <list default="true" id="b973fc8d-d723-4620-a849-8ca369c0c486" name="Changes" comment="Finished Voting Eligibility Checker task">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/assignments/NumberReversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/assignments/NumberReversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/common/TextInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/common/TextInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +79,7 @@
     "settings.editor.selected.configurable": "preferences.updates"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.VotingEligibilityChecker">
+  <component name="RunManager" selected="Application.NumberReversal">
     <configuration name="NumberReversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mentoskapraha.comp_sci.assignments.NumberReversal" />
       <module name="coding-tasks.main" />
@@ -155,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725990455327</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Finished Voting Eligibility Checker task">
+      <option name="closed" value="true" />
+      <created>1726064795540</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1726064795540</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -164,6 +171,7 @@
     <MESSAGE value="Completed Number Reversal." />
     <MESSAGE value="Completed Refactoring of Number Reversal." />
     <MESSAGE value="Message from Annabelle" />
-    <option name="LAST_COMMIT_MESSAGE" value="Message from Annabelle" />
+    <MESSAGE value="Finished Voting Eligibility Checker task" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished Voting Eligibility Checker task" />
   </component>
 </project>
