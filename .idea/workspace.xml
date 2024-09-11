@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b973fc8d-d723-4620-a849-8ca369c0c486" name="Changes" comment="Completed Refactoring of Number Reversal." />
+    <list default="true" id="b973fc8d-d723-4620-a849-8ca369c0c486" name="Changes" comment="Message from Annabelle">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/assignments/VotingEligibilityChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/assignments/NumberReversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/assignments/NumberReversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/common/TextInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/common/TextInput.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,6 +47,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -62,6 +70,7 @@
     "Gradle.coding-tasks [:com.mentoskapraha.NumberReversal.main()].executor": "Run",
     "Gradle.coding-tasks [:com.mentoskapraha.comp_sci.NumberReversal.main()].executor": "Run",
     "Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.NumberReversal.main()].executor": "Run",
+    "Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.VotingEligibilityChecker.main()].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -71,7 +80,7 @@
     "settings.editor.selected.configurable": "preferences.updates"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.VotingEligibilityChecker">
     <configuration name="NumberReversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mentoskapraha.comp_sci.assignments.NumberReversal" />
       <module name="coding-tasks.main" />
@@ -85,8 +94,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VotingEligibilityChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mentoskapraha.comp_sci.assignments.VotingEligibilityChecker" />
+      <module name="coding-tasks.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mentoskapraha.comp_sci.assignments.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.VotingEligibilityChecker" />
         <item itemvalue="Application.NumberReversal" />
       </list>
     </recent_temporary>
@@ -124,7 +147,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725990148144</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Message from Annabelle">
+      <option name="closed" value="true" />
+      <created>1725990455327</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1725990455327</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -132,6 +163,7 @@
     <MESSAGE value="Initial Setup." />
     <MESSAGE value="Completed Number Reversal." />
     <MESSAGE value="Completed Refactoring of Number Reversal." />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Refactoring of Number Reversal." />
+    <MESSAGE value="Message from Annabelle" />
+    <option name="LAST_COMMIT_MESSAGE" value="Message from Annabelle" />
   </component>
 </project>

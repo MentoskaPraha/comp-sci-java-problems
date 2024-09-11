@@ -11,7 +11,7 @@ public class NumberReversal {
     //Run main program loop
     boolean exit = false;
     while (!exit){
-      String number = TextInput.numberInput(null, null);
+      String number = TextInput.integerInput("Please input a positive integer: ", null);
 
       //Reverse number
       StringBuilder reverseNumberBuilder = new StringBuilder();

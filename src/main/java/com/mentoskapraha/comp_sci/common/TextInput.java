@@ -44,7 +44,7 @@ public class TextInput {
    * @param invalidInputPrompt The prompt presented when the user inputs an invalid input. (optional)
    * @return The number as a string
    */
-  public static String numberInput(String prompt, String invalidInputPrompt){
+  public static String integerInput(String prompt, String invalidInputPrompt){
     //setup variables
     prompt = prompt != null ? prompt : "Please input a number: ";
     invalidInputPrompt = invalidInputPrompt != null ? invalidInputPrompt : "Invalid Input!\nPlease try again: ";
@@ -61,6 +61,35 @@ public class TextInput {
         validInput = true;
       } else{
         System.out.print(invalidInputPrompt);
+      }
+    }
+
+    return result;
+  }
+
+  /**
+   * The function allows the user to input a string, the program ensures it's not empty or blank.
+   * @param prompt The prompt presented to the user with instructions to input a number. (optional)
+   * @param invalidInputPrompt The prompt presented when the user inputs an invalid input(ei the string is blank or empty). (optional)
+   * @return The inputted String
+   */
+  public static String stringInput(String prompt, String invalidInputPrompt){
+    //setup variables
+    prompt = prompt != null ? prompt : "Please input a string: ";
+    invalidInputPrompt = invalidInputPrompt != null ? invalidInputPrompt : "Invalid Input, input cannot be empty!\nPlease try again: ";
+    String result = "";
+
+    //prompt user
+    System.out.print(prompt);
+
+    //get input
+    boolean validInput = false;
+    while (!validInput) {
+      result = scanner.nextLine().trim().strip();
+      if (result.isBlank() || result.isEmpty()){
+        System.out.print(invalidInputPrompt);
+      } else{
+        validInput = true;
       }
     }
 
