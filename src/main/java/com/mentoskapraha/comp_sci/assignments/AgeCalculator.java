@@ -1,9 +1,7 @@
 package com.mentoskapraha.comp_sci.assignments;
 
 import com.mentoskapraha.comp_sci.common.TextInput;
-
 import java.time.LocalDate;
-import java.util.Calendar;
 
 public class AgeCalculator {
   public static void main (String[] args){
