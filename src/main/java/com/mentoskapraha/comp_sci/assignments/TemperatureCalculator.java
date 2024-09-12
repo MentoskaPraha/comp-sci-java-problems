@@ -11,7 +11,7 @@ public class TemperatureCalculator {
     boolean exit = false;
     while (!exit) {
       //get temperature
-      float temp = Float.parseFloat(TextInput.integerInput("Please input your Celsius temperature: ", "That is not a valid Celsius temperature!\nPlease try again: "));
+      float temp = TextInput.floatInput("Please input your Celsius temperature: ", "That is not a valid Celsius temperature!\nPlease try again: ");
 
       //output converted temperature
       System.out.println("Your Celsius temperature in Fahrenheit is " + ((temp * 9/5) + 32) + "°.");

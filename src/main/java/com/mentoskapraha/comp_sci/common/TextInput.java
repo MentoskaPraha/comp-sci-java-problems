@@ -50,14 +50,14 @@ public class TextInput {
    * Allows the user to input only numbers in the terminal.
    * @param prompt The prompt presented to the user with instructions to input a number. (optional)
    * @param invalidInputPrompt The prompt presented when the user inputs an invalid input. (optional)
-   * @return The number as a string
+   * @return The number that was inputted.
    * @author MentoskaPraha
    */
-  public static String integerInput(String prompt, String invalidInputPrompt){
+  public static int integerInput(String prompt, String invalidInputPrompt){
     //setup variables
     prompt = prompt != null ? prompt : "Please input a number: ";
-    invalidInputPrompt = invalidInputPrompt != null ? invalidInputPrompt : "Invalid Input!\nPlease try again: ";
-    String result = "";
+    invalidInputPrompt = invalidInputPrompt != null ? invalidInputPrompt : "Invalid Input :)\nPlease try again: ";
+    int result = 0;
 
     //prompt user
     System.out.print(prompt);
@@ -65,11 +65,16 @@ public class TextInput {
     //get input
     boolean validInput = false;
     while (!validInput) {
-      result = scanner.nextLine().trim().strip();
-      if (result.matches("[0-9]+")){
-        validInput = true;
-      } else{
+      String input = scanner.nextLine().trim().strip();
+      if (input.isBlank() || input.isEmpty()){
         System.out.print(invalidInputPrompt);
+      } else{
+        try {
+          result = Integer.parseInt(input);
+          validInput = true;
+        } catch (Exception e){
+          System.out.print(invalidInputPrompt);
+        }
       }
     }
 
@@ -103,6 +108,68 @@ public class TextInput {
       }
     }
 
+    return result;
+  }
+
+  /**
+   * Allows the user to input a float
+   * @param prompt The prompt presented to the user with instructions to input a float number. (optional)
+   * @param invalidInputPrompt The prompt presented when the user inputs an invalid input. (optional)
+   * @return The float that was inputted.
+   * @author MentoskaPraha
+   */
+  public static float floatInput(String prompt, String invalidInputPrompt){
+    //setup variables
+    prompt = prompt != null ? prompt : "Please input a float: ";
+    invalidInputPrompt = invalidInputPrompt != null ? invalidInputPrompt : "Invalid Input :)\nPlease try again: ";
+    float result = 0;
+
+    //prompt user
+    System.out.print(prompt);
+
+    //get input
+    boolean validInput = false;
+    while (!validInput) {
+      String input = scanner.nextLine().trim().strip();
+      if (input.isBlank() || input.isEmpty()){
+        System.out.print(invalidInputPrompt);
+      } else{
+        try {
+          result = Float.parseFloat(input);
+          validInput = true;
+        } catch (Exception e){
+          System.out.print(invalidInputPrompt);
+        }
+      }
+    }
+
+    return result;
+  }
+
+  /**
+   * Get several number inputs from the user.
+   * @param numOfInputs How many numbers the user will input.
+   * @param prompt The prompt presented to the user to give them context as to why they're inputting all the numbers. (optional)
+   * @param invalidInputPrompt The prompt presented when the user inputs an invalid input. (optional)
+   * @return An array of all the inputs, the numbers are strings and will need to be converted.
+   * @author MentoskaPraha
+   */
+  public static float[] multiFloatInput(int numOfInputs, String prompt, String invalidInputPrompt) {
+    //setup variables
+    prompt = prompt != null ? prompt : "You will be inputting several(" + numOfInputs + ") numbers.";
+    invalidInputPrompt = invalidInputPrompt != null ? invalidInputPrompt : "Invalid Input :)\nPlease try again: ";
+    float[] result = new float[numOfInputs];
+
+    //prompt user
+    System.out.println(prompt);
+
+    //get inputs
+    for(int i = 0; i < result.length; i++){
+      result[i] = floatInput((i + 1) + ": ", invalidInputPrompt);
+    }
+
+    //return inputs
+    System.out.println("Input Complete!");
     return result;
   }
 }

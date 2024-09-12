@@ -12,7 +12,7 @@ public class AgeCalculator {
     boolean exit = false;
     while (!exit) {
       //get birth year
-      int birthYear = Integer.parseInt(TextInput.integerInput("Please input your birth year: ", "That is not a valid birth year!\nPlease try again: "));
+      int birthYear = TextInput.integerInput("Please input your birth year: ", "That is not a valid birth year!\nPlease try again: ");
 
       //output how old the user is
       System.out.println("You are " + (LocalDate.now().getYear() - birthYear) + " years old!");

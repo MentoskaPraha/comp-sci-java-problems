@@ -12,9 +12,9 @@ public class VotingEligibilityChecker {
     while (!exit){
       //get user input
       String country = TextInput.stringInput("Input the name of the country: ", null);
-      int minAge = Integer.parseInt(TextInput.integerInput("Input the minimum voting age: ", null));
+      int minAge = TextInput.integerInput("Input the minimum voting age: ", null);
       boolean citizenship = TextInput.yesNoInput(true,"Are you a citizen of " + country + "?", null);
-      int age = Integer.parseInt(TextInput.integerInput("Input your age: ", null));
+      int age = TextInput.integerInput("Input your age: ", null);
 
       //check eligibility
       boolean eligible = citizenship;
