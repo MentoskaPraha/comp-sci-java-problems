@@ -151,7 +151,7 @@ public class TextInput {
    * @param numOfInputs How many numbers the user will input.
    * @param prompt The prompt presented to the user to give them context as to why they're inputting all the numbers. (optional)
    * @param invalidInputPrompt The prompt presented when the user inputs an invalid input. (optional)
-   * @return An array of all the inputs, the numbers are strings and will need to be converted.
+   * @return An array of all the inputs.
    * @author MentoskaPraha
    */
   public static float[] multiFloatInput(int numOfInputs, String prompt, String invalidInputPrompt) {
@@ -166,6 +166,33 @@ public class TextInput {
     //get inputs
     for(int i = 0; i < result.length; i++){
       result[i] = floatInput((i + 1) + ": ", invalidInputPrompt);
+    }
+
+    //return inputs
+    System.out.println("Input Complete!");
+    return result;
+  }
+
+  /**
+   * Get several number inputs from the user.
+   * @param numOfInputs How many numbers the user will input.
+   * @param prompt The prompt presented to the user to give them context as to why they're inputting all the numbers. (optional)
+   * @param invalidInputPrompt The prompt presented when the user inputs an invalid input. (optional)
+   * @return An array of all the inputs.
+   * @author MentoskaPraha
+   */
+  public static int[] multiIntegerInput(int numOfInputs, String prompt, String invalidInputPrompt) {
+    //setup variables
+    prompt = prompt != null ? prompt : "You will be inputting several(" + numOfInputs + ") numbers.";
+    invalidInputPrompt = invalidInputPrompt != null ? invalidInputPrompt : "Invalid Input :)\nPlease try again: ";
+    int[] result = new int[numOfInputs];
+
+    //prompt user
+    System.out.println(prompt);
+
+    //get inputs
+    for(int i = 0; i < result.length; i++){
+      result[i] = integerInput((i + 1) + ": ", invalidInputPrompt);
     }
 
     //return inputs
