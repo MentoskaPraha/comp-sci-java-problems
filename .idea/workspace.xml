@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b973fc8d-d723-4620-a849-8ca369c0c486" name="Changes" comment="Finished Product Price Calculator">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/assignments/EvenAndOddCounter.java" afterDir="false" />
+    <list default="true" id="b973fc8d-d723-4620-a849-8ca369c0c486" name="Changes" comment="Finished Even and Odd Counter">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/assignments/SimpleLoginSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/common/TextMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,6 +74,7 @@
     "Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.PersonalizedGreeting.main()].executor": "Run",
     "Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.ProductPriceCalculator.main()].executor": "Run",
     "Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.SimpleGreeting.main()].executor": "Run",
+    "Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.SimpleLoginSystem.main()].executor": "Run",
     "Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.SimpleMathOperations.main()].executor": "Run",
     "Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.TemperatureCalculator.main()].executor": "Run",
     "Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.VotingEligibilityChecker.main()].executor": "Run",
@@ -200,7 +202,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726160841449</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Finished Even and Odd Counter">
+      <option name="closed" value="true" />
+      <created>1726168304566</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1726168304566</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -214,6 +224,7 @@
     <MESSAGE value="Finished all simple tasks" />
     <MESSAGE value="Removed unused imports" />
     <MESSAGE value="Finished Product Price Calculator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished Product Price Calculator" />
+    <MESSAGE value="Finished Even and Odd Counter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished Even and Odd Counter" />
   </component>
 </project>
