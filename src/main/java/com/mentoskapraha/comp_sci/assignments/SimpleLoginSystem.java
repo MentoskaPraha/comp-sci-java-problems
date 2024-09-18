@@ -18,7 +18,7 @@ public class SimpleLoginSystem {
     );
 
     //An arraylist to store all users.
-    ArrayList<User> users = new ArrayList<User>();
+    ArrayList<User> users = new ArrayList<>();
 
     //Ask what the user what they want to do and then do. Repeat until they exit.
     boolean exit = false;

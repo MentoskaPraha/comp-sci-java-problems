@@ -18,7 +18,7 @@ public class Utils {
   public static int getRandomNumber(int min, int max){
     if(max < min) throw new IllegalArgumentException("max can't be smaller than min!");
 
-    ArrayList<Integer> list = new ArrayList<Integer>();
+    ArrayList<Integer> list = new ArrayList<>();
     for (int i = min; i < max; i++) list.add(i);
     Collections.shuffle(list);
 
