@@ -11,12 +11,17 @@ public class NumberReversal {
     //Run main program loop
     boolean exit = false;
     while (!exit){
-      String number = Integer.toString(TextInput.integerInput("Please input a positive integer: ", null));
+      String number = Integer.toString(TextInput.integerInput("Please input an integer: ", null));
 
       //Reverse number
       StringBuilder reverseNumberBuilder = new StringBuilder();
-      for (int i = number.length() - 1; i >= 0; i--){
-        reverseNumberBuilder.append(number.charAt(i));
+      for (int i = number.length() - 1; i >= 0; i--) {
+        char digit = number.charAt(i);
+        if(digit == '-'){
+          reverseNumberBuilder.insert(0, digit);
+        } else {
+          reverseNumberBuilder.append(digit);
+        }
       }
       String reverseNumber = reverseNumberBuilder.toString();
 

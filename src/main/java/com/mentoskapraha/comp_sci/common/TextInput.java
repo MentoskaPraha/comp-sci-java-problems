@@ -199,4 +199,77 @@ public class TextInput {
     System.out.println("Input Complete!");
     return result;
   }
+
+  /**
+   * Will prompt the user to input a password. The password
+   * must contain at least one special character, at least one
+   * number, at least one capital character and must be at least
+   * 12 characters long.
+   * @param prompt A prompt that gets printed before the password input occurs, can be blank, but not null.
+   * @return The inputted password
+   * @author MentoskaPraha
+   */
+  public static String newPasswordInput(String prompt){
+    //setup vars
+    String result = "";
+
+    System.out.println(prompt);
+
+    boolean validInput = false;
+    String passwordPrompt = "Please enter your new password: ";
+    while(!validInput){
+      //prompt user for password
+      String firstInput = TextInput.stringInput(passwordPrompt, "Password cannot be blank or empty, please try again: ");
+
+      //check password
+      if(firstInput.length() < 12){
+        passwordPrompt = "The password must be at least 12 characters!\nPlease try again: ";
+        continue;
+      }
+
+      if(!firstInput.matches(".*[A-Z].*")){
+        passwordPrompt = "At least 1 capital letter is required!\nPlease try again: ";
+        continue;
+      }
+
+      if(!firstInput.matches(".*[a-z].*")){
+        passwordPrompt = "At least 1 non-capital letter is required!\nPlease try again: ";
+        continue;
+      }
+
+      if(!firstInput.matches(".*\\d.*")){
+        passwordPrompt = "At least 1 number is required!\nPlease try again: ";
+        continue;
+      }
+
+      if(!firstInput.matches(".*[`~!@#$%^&*()\\-_=+\\\\|\\[{\\]};:'\",<.>/?].*")){
+        passwordPrompt = "At least 1 special character is required!\nPlease try again: ";
+        continue;
+      }
+
+      //get the user to retype the password
+      passwordPrompt = "Please re-enter your new password: ";
+      String secondInput = TextInput.stringInput(passwordPrompt, "Password cannot be blank or empty, please try again: ");
+
+      if(secondInput.matches(firstInput)){
+        validInput = true;
+        result = secondInput;
+      } else {
+        passwordPrompt = "Passwords don't match!\nPlease try again: ";
+      }
+    }
+
+    return result;
+  }
+
+  /**
+   * Waits for the user to press enter before continuing.
+   * @param notification Some text to display context to the user.
+   * @author MentoskaPraha
+   */
+  public static void pressEnterToContinue(String notification) {
+    notification = notification != null ? notification : "Press enter to continue...";
+    System.out.print(notification);
+    scanner.nextLine();
+  }
 }
