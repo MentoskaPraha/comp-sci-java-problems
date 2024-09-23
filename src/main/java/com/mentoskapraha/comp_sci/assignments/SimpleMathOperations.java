@@ -1,9 +1,16 @@
 package com.mentoskapraha.comp_sci.assignments;
 
+import com.mentoskapraha.comp_sci.common.Assignment;
 import com.mentoskapraha.comp_sci.common.TextInput;
 
-public class SimpleMathOperations {
-  public static void main (String[] args){
+public class SimpleMathOperations extends Assignment {
+
+  public SimpleMathOperations(){
+    this.name = "Simple Math Operations";
+  }
+
+  @Override
+  public void run (){
     //print intro message
     System.out.println("Welcome to the Simple Math Operation Program 3000000 (because 3000 wasn't enough)!\nSimply input two numbers and this program will tell you their\nsum, difference, product, and quotient. The first number will always be first in the\nequations, this may give different results for the difference and quotient based on\nthe order you input the numbers in.");
 
@@ -27,6 +34,6 @@ public class SimpleMathOperations {
       exit = !TextInput.yesNoInput(false, "Would you like to check another pair of numbers?", null);
     }
 
-    System.out.println("Goodbye!\nProgram exited with Exit Code 0");
+    System.out.println("Goodbye!");
   }
 }

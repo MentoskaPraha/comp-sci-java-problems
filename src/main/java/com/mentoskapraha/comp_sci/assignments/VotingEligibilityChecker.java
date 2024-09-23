@@ -1,9 +1,16 @@
 package com.mentoskapraha.comp_sci.assignments;
 
+import com.mentoskapraha.comp_sci.common.Assignment;
 import com.mentoskapraha.comp_sci.common.TextInput;
 
-public class VotingEligibilityChecker {
-  public static void main (String[] args){
+public class VotingEligibilityChecker extends Assignment {
+
+  public VotingEligibilityChecker(){
+    this.name = "Voting Eligibility Checker";
+  }
+
+  @Override
+  public void run (){
     //Print intro message
     System.out.println("Welcome to the Voting Eligibility Checker 3000000 (because 3000 wasn't enough)!\nThis program checks if you are eligible to vote in a country.\nFirst input the country and the minimum voting age, then answer\nthe questions about yourself and the program will tell you if\nyou can vote or not.");
 
@@ -37,6 +44,6 @@ public class VotingEligibilityChecker {
       exit = !TextInput.yesNoInput(false, "Do you want to check another country or person?", null);
     }
 
-    System.out.println("Goodbye!\nProgram exited with Exit Code 0");
+    System.out.println("Goodbye!");
   }
 }

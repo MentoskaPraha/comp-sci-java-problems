@@ -4,13 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b973fc8d-d723-4620-a849-8ca369c0c486" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/common/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/common/Utils.java" afterDir="false" />
+    <list default="true" id="b973fc8d-d723-4620-a849-8ca369c0c486" name="Changes" comment="Fixed some issues">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/common/Assignment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/assignments/AgeCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/assignments/AgeCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/assignments/EvenAndOddCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/assignments/EvenAndOddCounter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/assignments/NumberReversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/assignments/NumberReversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/assignments/PersonalizedGreeting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/assignments/PersonalizedGreeting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/assignments/ProductPriceCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/assignments/ProductPriceCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/assignments/SimpleGreeting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/assignments/SimpleGreeting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/assignments/SimpleLoginSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/assignments/SimpleLoginSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/common/TextInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/common/TextInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/assignments/SimpleMathOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/assignments/SimpleMathOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/assignments/TemperatureCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/assignments/TemperatureCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/assignments/VotingEligibilityChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/assignments/VotingEligibilityChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/common/TextMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/common/TextMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/common/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/common/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +82,7 @@
     &quot;Gradle.coding-tasks [:Main.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.coding-tasks [:NumberReversal.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.coding-tasks [:com.mentoskapraha.NumberReversal.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.coding-tasks [:com.mentoskapraha.comp_sci.Main.main()].executor&quot;: &quot;Debug&quot;,
     &quot;Gradle.coding-tasks [:com.mentoskapraha.comp_sci.NumberReversal.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.AgeCalculator.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.EvenAndOddCounter.main()].executor&quot;: &quot;Run&quot;,
@@ -93,9 +103,35 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.updates&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.NumberReversal">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mentoskapraha.comp_sci.Main" />
+      <module name="coding-tasks.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mentoskapraha.comp_sci.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NumberReversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mentoskapraha.comp_sci.assignments.NumberReversal" />
+      <module name="coding-tasks.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mentoskapraha.comp_sci.assignments.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleLoginSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mentoskapraha.comp_sci.assignments.SimpleLoginSystem" />
       <module name="coding-tasks.main" />
       <extension name="coverage">
         <pattern>
@@ -122,6 +158,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.SimpleLoginSystem" />
         <item itemvalue="Application.VotingEligibilityChecker" />
         <item itemvalue="Application.NumberReversal" />
       </list>
@@ -224,7 +262,23 @@
       <option name="project" value="LOCAL" />
       <updated>1726172941984</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Finished Simple Login System.">
+      <option name="closed" value="true" />
+      <created>1726680562343</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1726680562343</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Fixed some issues">
+      <option name="closed" value="true" />
+      <created>1726680626354</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1726680626355</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -240,6 +294,8 @@
     <MESSAGE value="Finished Product Price Calculator" />
     <MESSAGE value="Finished Even and Odd Counter" />
     <MESSAGE value="Created text menu and setup basic control flow of Simple Login System." />
-    <option name="LAST_COMMIT_MESSAGE" value="Created text menu and setup basic control flow of Simple Login System." />
+    <MESSAGE value="Finished Simple Login System." />
+    <MESSAGE value="Fixed some issues" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed some issues" />
   </component>
 </project>

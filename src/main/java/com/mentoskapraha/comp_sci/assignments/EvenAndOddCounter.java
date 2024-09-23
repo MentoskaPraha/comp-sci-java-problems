@@ -1,9 +1,16 @@
 package com.mentoskapraha.comp_sci.assignments;
 
+import com.mentoskapraha.comp_sci.common.Assignment;
 import com.mentoskapraha.comp_sci.common.TextInput;
 
-public class EvenAndOddCounter {
-  public static void main (String[] args){
+public class EvenAndOddCounter extends Assignment {
+
+  public EvenAndOddCounter(){
+    this.name = "Even and Odd Counter";
+  }
+
+  @Override
+  public void run (){
     //print intro message
     System.out.println("Welcome to the Even And Odd Counter Program 3000000 (because 3000 wasn't enough)!\nFirst tell us how many integers you want to check, then input them, after which\nthis program will tell you how many are even and how many are odd.");
 
@@ -32,6 +39,6 @@ public class EvenAndOddCounter {
       exit = !TextInput.yesNoInput(false, "Would you like to check another list of integers?", null);
     }
 
-    System.out.println("Goodbye!\nProgram exited with Exit Code 0");
+    System.out.println("Goodbye!");
   }
 }

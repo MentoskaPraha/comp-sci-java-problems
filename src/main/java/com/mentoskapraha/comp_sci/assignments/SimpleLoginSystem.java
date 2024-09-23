@@ -1,13 +1,20 @@
 package com.mentoskapraha.comp_sci.assignments;
 
+import com.mentoskapraha.comp_sci.common.Assignment;
 import com.mentoskapraha.comp_sci.common.TextInput;
 import com.mentoskapraha.comp_sci.common.TextMenu;
 import com.mentoskapraha.comp_sci.common.User;
 
 import java.util.ArrayList;
 
-public class SimpleLoginSystem {
-  public static void main (String[] args){
+public class SimpleLoginSystem extends Assignment {
+
+  public SimpleLoginSystem(){
+    this.name = "Simple Login System";
+  }
+
+  @Override
+  public void run (){
     //create the text menu
     TextMenu menu = new TextMenu(
             "Welcome to the Simple Login Program Program 3000000 (because 3000 wasn't enough)!\nWhat would you like to do?",
@@ -31,6 +38,7 @@ public class SimpleLoginSystem {
         }
         case 2: {
           users.add(signup(users));
+          TextInput.pressEnterToContinue("Press Enter to return to menu...");
           break;
         }
         case 3: {
@@ -44,7 +52,7 @@ public class SimpleLoginSystem {
       }
     }
 
-    System.out.println("Goodbye!\nProgram exited with Exit Code 0");
+    System.out.println("Goodbye!");
   }
 
   private static void login(ArrayList<User> users) {
@@ -56,6 +64,7 @@ public class SimpleLoginSystem {
     //inform the user if the user doesn't exist
     if(user == null) {
       System.out.println("The username you entered doesn't exist!\nAborting...");
+      TextInput.pressEnterToContinue("Press Enter to return to menu...");
       return;
     }
 
@@ -76,6 +85,7 @@ public class SimpleLoginSystem {
         resetPassword(users);
       } else {
         System.out.println("Login Failed! Aborting...");
+        TextInput.pressEnterToContinue("Press Enter to return to menu...");
       }
     }
   }
@@ -89,36 +99,42 @@ public class SimpleLoginSystem {
     //inform the user if the user doesn't exist
     if(user == null) {
       System.out.println("The username you entered doesn't exist!\nAborting...");
+      TextInput.pressEnterToContinue("Press Enter to return to menu...");
       return;
     }
 
     //inform the user if the account recovery feature is disabled on the user
     if(!user.recovery){
       System.out.println("The user you entered doesn't have the recovery feature enabled making recovery impossible!\nAborting...");
+      TextInput.pressEnterToContinue("Press Enter to return to menu...");
       return;
     }
 
     //reset the users password
     int status = user.resetPassword(
             TextInput.integerInput("Input your recovery code: ", "The recovery code must be a number!\nPlease try again: "),
-            TextInput.newPasswordInput("Please input your new password (mustn't match old password): ")
+            TextInput.newPasswordInput("Warning: Your new password which mustn't match old password!")
     );
 
     //let the user know how the password reset went
     switch (status){
       case 0: {
         System.out.println("The user you entered doesn't have the recovery feature enabled making recovery impossible!\nAborting...");
+        TextInput.pressEnterToContinue("Press Enter to return to menu...");
         break;
       }
       case 1: {
         System.out.println("The recovery code is incorrect!\nAborting...");
+        TextInput.pressEnterToContinue("Press Enter to return to menu...");
         break;
       }
       case 2: {
         System.out.println("The new password mustn't matches the old password!\nAborting...");
+        TextInput.pressEnterToContinue("Press Enter to return to menu...");
       }
       default: {
         System.out.println("Successfully Reset Password for " + user.username + "!\nYour new recovery code is: " + status);
+        TextInput.pressEnterToContinue("Press Enter to return to menu...");
       }
     }
   }
@@ -133,13 +149,13 @@ public class SimpleLoginSystem {
     while(!uniqueUsername){
       username = TextInput.stringInput(prompt, "Username cannot be blank or empty!\nPlease try again: ");
 
-      if(users.isEmpty()) uniqueUsername = true;
+      if(users.isEmpty()) break;
+      uniqueUsername = true;
       for (User user : users){
         if(user.username.matches(username)){
           prompt = "That user already exists!\nPlease try another username: ";
+          uniqueUsername = false;
           break;
-        } else {
-          uniqueUsername = true;
         }
       }
     }

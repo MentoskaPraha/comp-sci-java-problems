@@ -7,10 +7,25 @@ package com.mentoskapraha.comp_sci.common;
  * @author MentoskaPraha
  */
 public class User {
+  /**
+   * The username of the user.
+   */
   public final String username;
+
+  /**
+   * The user's password.
+   */
   private String password;
+
+  /**
+   * Whether recovery is enabled on the users account.
+   */
   public boolean recovery = false;
-  private int recoveryCode = Utils.getRandomNumber(10000000, 99999999);
+
+  /**
+   * The user's recovery code.
+   */
+  private int recoveryCode = 0;
 
   /**
    * Creates a new user
@@ -52,7 +67,7 @@ public class User {
    * @author MentoskaPraha
    */
   public int getRecoveryCode(String password) {
-    if(!recovery) return 0;
+    if(!this.recovery) return 0;
     if(password.matches(this.password)){
       return this.recoveryCode;
     } else {
@@ -69,7 +84,7 @@ public class User {
    * @author MentoskaPraha
    */
   public int resetPassword(int recoveryCode, String newPassword) {
-    if(!recovery) return 0;
+    if(!this.recovery) return 0;
     if(recoveryCode != this.recoveryCode) return 1;
     if(newPassword.matches(this.password)) return 2;
 

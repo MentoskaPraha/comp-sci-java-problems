@@ -1,10 +1,17 @@
 package com.mentoskapraha.comp_sci.assignments;
 
+import com.mentoskapraha.comp_sci.common.Assignment;
 import com.mentoskapraha.comp_sci.common.TextInput;
 import java.time.LocalDate;
 
-public class AgeCalculator {
-  public static void main (String[] args){
+public class AgeCalculator extends Assignment {
+
+  public AgeCalculator(){
+    this.name = "Age Calculator";
+  }
+
+  @Override
+  public void run (){
     //print intro message
     System.out.println("Welcome to the Age Calculator Program 3000000 (because 3000 wasn't enough)!\nSimply input the year you were born in and this program will tell you how old you are.");
 
@@ -21,6 +28,6 @@ public class AgeCalculator {
       exit = !TextInput.yesNoInput(false, "Do you wish to calculated another age?", null);
     }
 
-    System.out.println("Goodbye!\nProgram exited with Exit Code 0");
+    System.out.println("Goodbye!");
   }
 }

@@ -25,11 +25,11 @@ public class TextMenu {
    */
   public TextMenu(String title, String inputPrompt, String invalidInput, String cancelOptionText, String... options){
     if (options.length < 3) throw new IllegalArgumentException("There must be at least 3 options.");
-    menuOptions = options;
-    menuTitle = title;
-    menuInputPrompt = inputPrompt;
-    menuInvalidInput = invalidInput;
-    menuCancelOptionText = cancelOptionText;
+    this.menuOptions = options;
+    this.menuTitle = title;
+    this.menuInputPrompt = inputPrompt;
+    this.menuInvalidInput = invalidInput;
+    this.menuCancelOptionText = cancelOptionText;
   }
 
   /**
@@ -38,7 +38,7 @@ public class TextMenu {
    */
   public void setOptions(String... newOptions){
     if (newOptions.length < 3) throw new IllegalArgumentException("There must be at least 3 options.");
-    menuOptions = newOptions;
+    this.menuOptions = newOptions;
   }
 
   /**
@@ -46,7 +46,7 @@ public class TextMenu {
    * @param newTitle The new title.
    */
   public void setTitle(String newTitle){
-    menuTitle = newTitle;
+    this.menuTitle = newTitle;
   }
 
   /**
@@ -54,7 +54,7 @@ public class TextMenu {
    * @param newInputPrompt The new input prompt.
    */
   public void setInputPrompt(String newInputPrompt){
-    menuInputPrompt = newInputPrompt;
+    this.menuInputPrompt = newInputPrompt;
   }
 
   /**
@@ -62,7 +62,7 @@ public class TextMenu {
    * @param newInvalidInput The new invalid input message.
    */
   public void setInvalidInput(String newInvalidInput){
-    menuInvalidInput = newInvalidInput;
+    this.menuInvalidInput = newInvalidInput;
   }
 
   /**
@@ -70,7 +70,7 @@ public class TextMenu {
    * @param newCancelOptionText The new cancel input text message.
    */
   public void setCancelOptionText(String newCancelOptionText){
-    menuCancelOptionText = newCancelOptionText;
+    this.menuCancelOptionText = newCancelOptionText;
   }
 
   /**
@@ -78,9 +78,9 @@ public class TextMenu {
    * @param option The new option.
    */
   public void addOption(String option){
-    String[] newOptions = Arrays.copyOf(menuOptions, menuOptions.length + 1);
+    String[] newOptions = Arrays.copyOf(this.menuOptions, this.menuOptions.length + 1);
     newOptions[newOptions.length - 1] = option;
-    menuOptions = newOptions;
+    this.menuOptions = newOptions;
   }
 
   /**
@@ -89,7 +89,7 @@ public class TextMenu {
    */
   public int display(){
     //print out the title
-    System.out.println(menuTitle);
+    System.out.println(this.menuTitle);
 
     //print out the options
     for(int i = 0; i < menuOptions.length; i++){

@@ -1,10 +1,16 @@
 package com.mentoskapraha.comp_sci.assignments;
 
+import com.mentoskapraha.comp_sci.common.Assignment;
 import com.mentoskapraha.comp_sci.common.TextInput;
 
-public class NumberReversal {
+public class NumberReversal extends Assignment {
 
-  public static void main(String[] args){
+  public NumberReversal(){
+    this.name = "Number Reversal";
+  }
+
+  @Override
+  public void run(){
     //Print intro message
     System.out.println("Welcome to the Number Reversal Program 3000000 (because 3000 wasn't enough)!\nAny number that you input into this program will be reversed (so 1234 becomes 4321).\nThe program will also tell you if the number you inputted is the same as the reversed version, also know as a palindrome.");
 
@@ -35,7 +41,7 @@ public class NumberReversal {
       exit = !TextInput.yesNoInput(false, "Would you like to input another number?", null);
     }
 
-    System.out.println("Goodbye!\nProgram exited with Exit Code 0");
+    System.out.println("Goodbye!");
   }
 }
 
