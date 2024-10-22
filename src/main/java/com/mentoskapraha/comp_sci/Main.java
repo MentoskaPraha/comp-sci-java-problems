@@ -24,7 +24,8 @@ public class Main {
           new DuplicateRemover(),
           new AdvancedTemperatureCalculator(),
           new FibonacciGenerator(),
-          new BasicBankingSystem()
+          new BasicBankingSystem(),
+          new PrimeNumberFinder()
   };
 
   public static void main(String[] args) {
