@@ -18,7 +18,13 @@ public class Main {
           new ProductPriceCalculator(),
           new VotingEligibilityChecker(),
           new NumberReversal(),
-          new SimpleLoginSystem()
+          new SimpleLoginSystem(),
+          new MaxValueFinder(),
+          new ListCounter(),
+          new DuplicateRemover(),
+          new AdvancedTemperatureCalculator(),
+          new FibonacciGenerator(),
+          new BasicBankingSystem()
   };
 
   public static void main(String[] args) {

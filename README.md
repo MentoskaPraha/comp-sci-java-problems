@@ -11,3 +11,9 @@ Nothing here for now :)
 
 ## Common
 The `com.mentoskapraha.comp_sci.common` package contains useful classes and methods. Feel free to copy any code in this package and use it for your own purposes.
+
+## Templates
+The `./src/templates` directory contains useful templates that I can then copy and paste to speed up development. At some point I will turn these into IDE snippets, but that might not be for a while.
+
+## Tests - *Work in Progress*
+This entire project has unit tests for all assignments, each assignment has one unit test that will then run that assignment 3 different times, once with predefined inputs chosen by me and the other 2 times it will randomly generate inputs where appropriate. Certain assignments are only ran once due to their complexity.

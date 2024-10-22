@@ -147,6 +147,41 @@ public class TextInput {
   }
 
   /**
+   * Allows the user to input a double
+   * @param prompt The prompt presented to the user with instructions to input a float number. (optional)
+   * @param invalidInputPrompt The prompt presented when the user inputs an invalid input. (optional)
+   * @return The double that was inputted.
+   * @author MentoskaPraha
+   */
+  public static double doubleInput(String prompt, String invalidInputPrompt){
+    //setup variables
+    prompt = prompt != null ? prompt : "Please input a double: ";
+    invalidInputPrompt = invalidInputPrompt != null ? invalidInputPrompt : "Invalid Input :)\nPlease try again: ";
+    double result = 0;
+
+    //prompt user
+    System.out.print(prompt);
+
+    //get input
+    boolean validInput = false;
+    while (!validInput) {
+      String input = scanner.nextLine().trim().strip();
+      if (input.isBlank() || input.isEmpty()){
+        System.out.print(invalidInputPrompt);
+      } else{
+        try {
+          result = Double.parseDouble(input);
+          validInput = true;
+        } catch (Exception e){
+          System.out.print(invalidInputPrompt);
+        }
+      }
+    }
+
+    return result;
+  }
+
+  /**
    * Get several number inputs from the user.
    * @param numOfInputs How many numbers the user will input.
    * @param prompt The prompt presented to the user to give them context as to why they're inputting all the numbers. (optional)

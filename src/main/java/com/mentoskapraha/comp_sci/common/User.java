@@ -55,24 +55,8 @@ public class User {
    */
   public int enableRecovery() {
     this.recovery = true;
-    this.recoveryCode = Utils.getRandomNumber(10000000, 99999999);
+    this.recoveryCode = Utils.getRandomNumber(1000, 9999);
     return this.recoveryCode;
-  }
-
-  /**
-   * Get the recovery code of the user, requires their password.
-   * @param password The user's password.
-   * @return The recovery code, if 0 is returned recovery is
-   * disabled, if 1 is returned the password is invalid.
-   * @author MentoskaPraha
-   */
-  public int getRecoveryCode(String password) {
-    if(!this.recovery) return 0;
-    if(password.matches(this.password)){
-      return this.recoveryCode;
-    } else {
-      return 0;
-    }
   }
 
   /**
@@ -89,7 +73,7 @@ public class User {
     if(newPassword.matches(this.password)) return 2;
 
     this.password = newPassword;
-    this.recoveryCode = Utils.getRandomNumber(10000000, 99999999);
+    this.recoveryCode = Utils.getRandomNumber(1000, 9999);
     return this.recoveryCode;
   }
 }
