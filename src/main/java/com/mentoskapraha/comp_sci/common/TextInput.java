@@ -10,6 +10,8 @@ import java.util.Scanner;
  * @author MentoskaPraha
  */
 public class TextInput {
+  private static final Scanner scanner = new Scanner(System.in);
+
   /**
    * Gives the user a yes or no prompt in the terminal.
    * @param defaultAnswerIsYes If true the default answer will be yes, if false then it's no. The default answer is the answer that gets selected if the user just presses enter without inputting anything.
@@ -22,9 +24,6 @@ public class TextInput {
     //setup variable
     question = question != null ? question : "Are you sure?";
     invalidInputMessage = invalidInputMessage != null ? invalidInputMessage : "Invalid input, please try again.";
-
-    //instance scanner
-    final Scanner scanner = new Scanner(System.in);
 
     boolean result = false;
     boolean validInput = false;
@@ -44,8 +43,6 @@ public class TextInput {
       }
     }
 
-    //close scanner and return results
-    scanner.close();
     return result;
   }
 
@@ -61,9 +58,6 @@ public class TextInput {
     prompt = prompt != null ? prompt : "Please input a number: ";
     invalidInputPrompt = invalidInputPrompt != null ? invalidInputPrompt : "Invalid Input :)\nPlease try again: ";
     int result = 0;
-
-    //instance scanner
-    final Scanner scanner = new Scanner(System.in);
 
     //prompt user
     System.out.print(prompt);
@@ -84,8 +78,6 @@ public class TextInput {
       }
     }
 
-    //close scanner and return
-    scanner.close();
     return result;
   }
 
@@ -102,9 +94,6 @@ public class TextInput {
     invalidInputPrompt = invalidInputPrompt != null ? invalidInputPrompt : "Invalid Input, input cannot be empty!\nPlease try again: ";
     String result = "";
 
-    //instance scanner
-    final Scanner scanner = new Scanner(System.in);
-
     //prompt user
     System.out.print(prompt);
 
@@ -119,8 +108,41 @@ public class TextInput {
       }
     }
 
-    //close scanner and return result
-    scanner.close();
+    return result;
+  }
+
+  /**
+   * Allows the user to input a float
+   * @param prompt The prompt presented to the user with instructions to input a float number. (optional)
+   * @param invalidInputPrompt The prompt presented when the user inputs an invalid input. (optional)
+   * @return The float that was inputted.
+   * @author MentoskaPraha
+   */
+  public static float floatInput(String prompt, String invalidInputPrompt){
+    //setup variables
+    prompt = prompt != null ? prompt : "Please input a float: ";
+    invalidInputPrompt = invalidInputPrompt != null ? invalidInputPrompt : "Invalid Input :)\nPlease try again: ";
+    float result = 0;
+
+    //prompt user
+    System.out.print(prompt);
+
+    //get input
+    boolean validInput = false;
+    while (!validInput) {
+      String input = scanner.nextLine().trim().strip();
+      if (input.isBlank() || input.isEmpty()){
+        System.out.print(invalidInputPrompt);
+      } else{
+        try {
+          result = Float.parseFloat(input);
+          validInput = true;
+        } catch (Exception e){
+          System.out.print(invalidInputPrompt);
+        }
+      }
+    }
+
     return result;
   }
 
@@ -136,9 +158,6 @@ public class TextInput {
     prompt = prompt != null ? prompt : "Please input a double: ";
     invalidInputPrompt = invalidInputPrompt != null ? invalidInputPrompt : "Invalid Input :)\nPlease try again: ";
     double result = 0;
-
-    //instance scanner
-    final Scanner scanner = new Scanner(System.in);
 
     //prompt user
     System.out.print(prompt);
@@ -159,8 +178,6 @@ public class TextInput {
       }
     }
 
-    //close scanner and return result
-    scanner.close();
     return result;
   }
 
@@ -172,26 +189,22 @@ public class TextInput {
    * @return An array of all the inputs.
    * @author MentoskaPraha
    */
-  public static double[] multiDoubleInput(int numOfInputs, String prompt, String invalidInputPrompt) {
+  public static float[] multiFloatInput(int numOfInputs, String prompt, String invalidInputPrompt) {
     //setup variables
     prompt = prompt != null ? prompt : "You will be inputting several(" + numOfInputs + ") numbers.";
     invalidInputPrompt = invalidInputPrompt != null ? invalidInputPrompt : "Invalid Input :)\nPlease try again: ";
-    double[] result = new double[numOfInputs];
-
-    //instance scanner
-    final Scanner scanner = new Scanner(System.in);
+    float[] result = new float[numOfInputs];
 
     //prompt user
     System.out.println(prompt);
 
     //get inputs
     for(int i = 0; i < result.length; i++){
-      result[i] = doubleInput((i + 1) + ": ", invalidInputPrompt);
+      result[i] = floatInput((i + 1) + ": ", invalidInputPrompt);
     }
 
     //return inputs
     System.out.println("Input Complete!");
-    scanner.close();
     return result;
   }
 
@@ -209,9 +222,6 @@ public class TextInput {
     invalidInputPrompt = invalidInputPrompt != null ? invalidInputPrompt : "Invalid Input :)\nPlease try again: ";
     int[] result = new int[numOfInputs];
 
-    //instance scanner
-    final Scanner scanner = new Scanner(System.in);
-
     //prompt user
     System.out.println(prompt);
 
@@ -222,7 +232,6 @@ public class TextInput {
 
     //return inputs
     System.out.println("Input Complete!");
-    scanner.close();
     return result;
   }
 
@@ -239,10 +248,6 @@ public class TextInput {
     //setup vars
     String result = "";
 
-    //instance scanner
-    final Scanner scanner = new Scanner(System.in);
-
-    //prompt user
     System.out.println(prompt);
 
     boolean validInput = false;
@@ -289,28 +294,17 @@ public class TextInput {
       }
     }
 
-    //close scanner and return result
-    scanner.close();
     return result;
   }
 
   /**
    * Waits for the user to press enter before continuing.
-   * @param notification Some text to display context to the user, there is a default if String is null.
+   * @param notification Some text to display context to the user.
    * @author MentoskaPraha
    */
   public static void pressEnterToContinue(String notification) {
-    //setup
     notification = notification != null ? notification : "Press enter to continue...";
     System.out.print(notification);
-
-    //instance scanner
-    final Scanner scanner = new Scanner(System.in);
-
-    //wait for input
     scanner.nextLine();
-
-    //close scanner
-    scanner.close();
   }
 }

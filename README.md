@@ -16,4 +16,4 @@ The `com.mentoskapraha.comp_sci.common` package contains useful classes and meth
 The `./src/templates` directory contains useful templates that I can then copy and paste to speed up development. At some point I will turn these into IDE snippets, but that might not be for a while.
 
 ## Tests - *Work in Progress*
-This entire project has unit tests for all assignments, each assignment will have at least 1 unit test and they will be tailored to ensure that assignment is function. In general there will be one that runs the assignment with predetermined data and one with random data that runs the assignment multiple times to simulate real usage. Tests can be run with the gradle test task.
+This entire project has unit tests for all assignments, each assignment has one unit test that will then run that assignment 3 different times, once with predefined inputs chosen by me and the other 2 times it will randomly generate inputs where appropriate. Certain assignments are only ran once due to their complexity.

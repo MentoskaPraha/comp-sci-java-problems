@@ -19,16 +19,16 @@ public class ProductPriceCalculator extends Assignment {
     while (!exit) {
       //get data
       int numProducts = TextInput.integerInput("Please input the number of products you have: ", null);
-      double[] prices = TextInput.multiDoubleInput(numProducts, "You're inputting the prices of " + numProducts + ".", null);
+      float[] prices = TextInput.multiFloatInput(numProducts, "You're inputting the prices of " + numProducts + ".", null);
 
       //get total;
-      double total = 0;
-      for (double price : prices) {
+      float total = 0;
+      for (float price : prices) {
         total = total + price;
       }
 
       //get average
-      double average = total / prices.length;
+      float average = total / prices.length;
 
       //display this information
       System.out.println("Total Price: " + total + "\nAverage Price: " + average);
