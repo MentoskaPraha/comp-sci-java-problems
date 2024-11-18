@@ -18,14 +18,14 @@ public class SimpleMathOperations extends Assignment {
     boolean exit = false;
     while (!exit) {
       //get numbers
-      float a = TextInput.floatInput("Input the first number: ", null);
-      float b = TextInput.floatInput("Input the second number: ", null);
+      double a = TextInput.doubleInput("Input the first number: ", null);
+      double b = TextInput.doubleInput("Input the second number: ", null);
 
       //perform calculations
-      float sum = a + b;
-      float difference = a - b;
-      float product = a * b;
-      float quotient = a / b;
+      double sum = a + b;
+      double difference = a - b;
+      double product = a * b;
+      double quotient = a / b;
 
       //output results
       System.out.println("The results for numbers " + a + " and " + b + ":\nSum: " + sum + "\nDifference: " + difference + "\nProduct: " + product + "\nQuotient: " + quotient);

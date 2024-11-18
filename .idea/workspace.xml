@@ -5,21 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b973fc8d-d723-4620-a849-8ca369c0c486" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/assignments/AdvancedTemperatureCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/assignments/BasicBankingSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/assignments/DuplicateRemover.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/assignments/FibonacciGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/assignments/ListCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/assignments/MaxValueFinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/assignments/PrimeNumberFinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/templates/AssignmentDevTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/templates/AssignmentTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/mentoskapraha/comp_sci/assignments/SimpleGreetingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/mentoskapraha/comp_sci/assignments/SimpleMathOperationsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/mentoskapraha/comp_sci/common/TextInputTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/assignments/ProductPriceCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/assignments/ProductPriceCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/assignments/SimpleMathOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/assignments/SimpleMathOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/assignments/TemperatureCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/assignments/TemperatureCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/common/TextInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/common/TextInput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/common/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/common/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,12 +29,26 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="coding-tasks" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="coding-tasks" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="coding-tasks" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -52,6 +61,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -62,7 +72,7 @@
     <setting file="file://$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/assignments/SimpleLoginSystem.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -75,118 +85,206 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Gradle.coding-tasks [:Main.main()].executor": "Run",
-    "Gradle.coding-tasks [:NumberReversal.main()].executor": "Run",
-    "Gradle.coding-tasks [:com.mentoskapraha.NumberReversal.main()].executor": "Run",
-    "Gradle.coding-tasks [:com.mentoskapraha.comp_sci.Main.main()].executor": "Run",
-    "Gradle.coding-tasks [:com.mentoskapraha.comp_sci.NumberReversal.main()].executor": "Run",
-    "Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.AdvancedTemperatureCalculator.main()].executor": "Run",
-    "Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.AgeCalculator.main()].executor": "Run",
-    "Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.DuplicateRemover.main()].executor": "Run",
-    "Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.EvenAndOddCounter.main()].executor": "Run",
-    "Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.FibonacciGenerator.main()].executor": "Run",
-    "Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.ListCounter.main()].executor": "Run",
-    "Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.MaxValueFinder.main()].executor": "Run",
-    "Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.NumberReversal.main()].executor": "Run",
-    "Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.PersonalizedGreeting.main()].executor": "Run",
-    "Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.PrimeNumberFinder.main()].executor": "Run",
-    "Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.ProductPriceCalculator.main()].executor": "Run",
-    "Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.SimpleGreeting.main()].executor": "Run",
-    "Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.SimpleLoginSystem.main()].executor": "Run",
-    "Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.SimpleMathOperations.main()].executor": "Run",
-    "Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.TemperatureCalculator.main()].executor": "Run",
-    "Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.VotingEligibilityChecker.main()].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.updates"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Gradle.Download Sources.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SimpleGreetingTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SimpleMathOperationsTest.divideByZero.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SimpleMathOperationsTest.divideZero.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SimpleMathOperationsTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SimpleMathOperationsTest.predefined.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SimpleMathOperationsTest.predefinedTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SimpleMathOperationsTest.randomised.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SimpleMathOperationsTest.randomisedRepeatedTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SimpleMathOperationsTest.testSimpleMathOperations.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SimpleMathOperationsTest.testSimpleMathOperations2.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TextInputTest.doubleInput.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TextInputTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TextInputTest.floatInput.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TextInputTest.integerInput.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TextInputTest.multiDoubleInput.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TextInputTest.multiIntegerInput.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TextInputTest.pressEnterToContinue.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TextInputTest.stringInput.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TextInputTest.yesNoInput.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.coding-tasks [:Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.coding-tasks [:NumberReversal.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.coding-tasks [:com.mentoskapraha.NumberReversal.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.coding-tasks [:com.mentoskapraha.comp_sci.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.coding-tasks [:com.mentoskapraha.comp_sci.NumberReversal.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.AdvancedTemperatureCalculator.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.AgeCalculator.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.DuplicateRemover.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.EvenAndOddCounter.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.FibonacciGenerator.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.ListCounter.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.MaxValueFinder.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.NumberReversal.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.PersonalizedGreeting.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.PrimeNumberFinder.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.ProductPriceCalculator.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.SimpleGreeting.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.SimpleLoginSystem.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.SimpleMathOperations.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.TemperatureCalculator.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.VotingEligibilityChecker.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.coding-tasks [buildEnvironment].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.coding-tasks [check].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.coding-tasks [init].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.coding-tasks [test].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.mentoskapraha.comp_sci.common" />
+      <recent name="com.mentoskapraha.comp_sci.assignments" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.mentoskapraha.comp_sci.assignments" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FibonacciGenerator">
-    <configuration name="AdvancedTemperatureCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mentoskapraha.comp_sci.assignments.AdvancedTemperatureCalculator" />
-      <module name="coding-tasks.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mentoskapraha.comp_sci.assignments.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+  <component name="RunManager" selected="Gradle.TextInputTest.pressEnterToContinue">
+    <configuration name="TextInputTest.doubleInput" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.mentoskapraha.comp_sci.common.TextInputTest.doubleInput&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
     </configuration>
-    <configuration name="DuplicateRemover" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mentoskapraha.comp_sci.assignments.DuplicateRemover" />
-      <module name="coding-tasks.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mentoskapraha.comp_sci.assignments.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="TextInputTest.multiDoubleInput" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.mentoskapraha.comp_sci.common.TextInputTest.multiDoubleInput&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
     </configuration>
-    <configuration name="FibonacciGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mentoskapraha.comp_sci.assignments.FibonacciGenerator" />
-      <module name="coding-tasks.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mentoskapraha.comp_sci.assignments.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="TextInputTest.multiIntegerInput" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.mentoskapraha.comp_sci.common.TextInputTest.multiIntegerInput&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
     </configuration>
-    <configuration name="ListCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mentoskapraha.comp_sci.assignments.ListCounter" />
-      <module name="coding-tasks.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mentoskapraha.comp_sci.assignments.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="TextInputTest.pressEnterToContinue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.mentoskapraha.comp_sci.common.TextInputTest.pressEnterToContinue&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
     </configuration>
-    <configuration name="PrimeNumberFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mentoskapraha.comp_sci.assignments.PrimeNumberFinder" />
-      <module name="coding-tasks.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mentoskapraha.comp_sci.assignments.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="TextInputTest.stringInput" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.mentoskapraha.comp_sci.common.TextInputTest.stringInput&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FibonacciGenerator" />
-        <item itemvalue="Application.AdvancedTemperatureCalculator" />
-        <item itemvalue="Application.PrimeNumberFinder" />
-        <item itemvalue="Application.DuplicateRemover" />
-        <item itemvalue="Application.ListCounter" />
+        <item itemvalue="Gradle.TextInputTest.pressEnterToContinue" />
+        <item itemvalue="Gradle.TextInputTest.multiIntegerInput" />
+        <item itemvalue="Gradle.TextInputTest.multiDoubleInput" />
+        <item itemvalue="Gradle.TextInputTest.stringInput" />
+        <item itemvalue="Gradle.TextInputTest.doubleInput" />
       </list>
     </recent_temporary>
   </component>
@@ -311,7 +409,23 @@
       <option name="project" value="LOCAL" />
       <updated>1727105627463</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Finished remaining assignments + bug fixes">
+      <option name="closed" value="true" />
+      <created>1729563981631</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1729563981631</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Add PrimeNumberFinder to main as I forgor">
+      <option name="closed" value="true" />
+      <created>1729564027762</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1729564027762</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -330,6 +444,18 @@
     <MESSAGE value="Finished Simple Login System." />
     <MESSAGE value="Fixed some issues" />
     <MESSAGE value="Reworked to work on a single menu + bug fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reworked to work on a single menu + bug fixes" />
+    <MESSAGE value="Finished remaining assignments + bug fixes" />
+    <MESSAGE value="Add PrimeNumberFinder to main as I forgor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add PrimeNumberFinder to main as I forgor" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint type="java-exception">
+          <properties class="java.util.NoSuchElementException" package="java.util" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
