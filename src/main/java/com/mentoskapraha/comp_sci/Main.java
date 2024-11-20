@@ -25,7 +25,8 @@ public class Main {
           new AdvancedTemperatureCalculator(),
           new FibonacciGenerator(),
           new BasicBankingSystem(),
-          new PrimeNumberFinder()
+          new PrimeNumberFinder(),
+          new NumberCompareFunction()
   };
 
   public static void main(String[] args) {

@@ -4,22 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b973fc8d-d723-4620-a849-8ca369c0c486" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/assignments/AdvancedTemperatureCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/assignments/BasicBankingSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/assignments/DuplicateRemover.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/assignments/FibonacciGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/assignments/ListCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/assignments/MaxValueFinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/assignments/PrimeNumberFinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/templates/AssignmentDevTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/templates/AssignmentTemplate.java" afterDir="false" />
+    <list default="true" id="b973fc8d-d723-4620-a849-8ca369c0c486" name="Changes" comment="Added testing">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/assignments/NumberCompareFunction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/common/TextInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/common/TextInput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/common/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/common/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +22,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -75,46 +66,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Gradle.coding-tasks [:Main.main()].executor": "Run",
-    "Gradle.coding-tasks [:NumberReversal.main()].executor": "Run",
-    "Gradle.coding-tasks [:com.mentoskapraha.NumberReversal.main()].executor": "Run",
-    "Gradle.coding-tasks [:com.mentoskapraha.comp_sci.Main.main()].executor": "Run",
-    "Gradle.coding-tasks [:com.mentoskapraha.comp_sci.NumberReversal.main()].executor": "Run",
-    "Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.AdvancedTemperatureCalculator.main()].executor": "Run",
-    "Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.AgeCalculator.main()].executor": "Run",
-    "Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.DuplicateRemover.main()].executor": "Run",
-    "Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.EvenAndOddCounter.main()].executor": "Run",
-    "Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.FibonacciGenerator.main()].executor": "Run",
-    "Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.ListCounter.main()].executor": "Run",
-    "Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.MaxValueFinder.main()].executor": "Run",
-    "Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.NumberReversal.main()].executor": "Run",
-    "Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.PersonalizedGreeting.main()].executor": "Run",
-    "Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.PrimeNumberFinder.main()].executor": "Run",
-    "Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.ProductPriceCalculator.main()].executor": "Run",
-    "Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.SimpleGreeting.main()].executor": "Run",
-    "Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.SimpleLoginSystem.main()].executor": "Run",
-    "Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.SimpleMathOperations.main()].executor": "Run",
-    "Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.TemperatureCalculator.main()].executor": "Run",
-    "Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.VotingEligibilityChecker.main()].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.updates"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Gradle.coding-tasks [:Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.coding-tasks [:NumberReversal.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.coding-tasks [:com.mentoskapraha.NumberReversal.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.coding-tasks [:com.mentoskapraha.comp_sci.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.coding-tasks [:com.mentoskapraha.comp_sci.NumberReversal.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.AdvancedTemperatureCalculator.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.AgeCalculator.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.DuplicateRemover.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.EvenAndOddCounter.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.FibonacciGenerator.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.ListCounter.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.MaxValueFinder.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.NumberReversal.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.PersonalizedGreeting.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.PrimeNumberFinder.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.ProductPriceCalculator.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.SimpleGreeting.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.SimpleLoginSystem.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.SimpleMathOperations.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.TemperatureCalculator.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.coding-tasks [:com.mentoskapraha.comp_sci.assignments.VotingEligibilityChecker.main()].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.updates&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.mentoskapraha.comp_sci.assignments" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FibonacciGenerator">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="AdvancedTemperatureCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mentoskapraha.comp_sci.assignments.AdvancedTemperatureCalculator" />
       <module name="coding-tasks.main" />
@@ -154,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mentoskapraha.comp_sci.assignments.ListCounter" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mentoskapraha.comp_sci.Main" />
       <module name="coding-tasks.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mentoskapraha.comp_sci.assignments.*" />
+          <option name="PATTERN" value="com.mentoskapraha.comp_sci.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.FibonacciGenerator" />
         <item itemvalue="Application.AdvancedTemperatureCalculator" />
         <item itemvalue="Application.PrimeNumberFinder" />
         <item itemvalue="Application.DuplicateRemover" />
-        <item itemvalue="Application.ListCounter" />
       </list>
     </recent_temporary>
   </component>
