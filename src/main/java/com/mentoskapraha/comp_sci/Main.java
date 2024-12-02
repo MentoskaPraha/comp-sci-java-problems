@@ -26,7 +26,8 @@ public class Main {
           new FibonacciGenerator(),
           new BasicBankingSystem(),
           new PrimeNumberFinder(),
-          new NumberCompareFunction()
+          new NumberCompareFunction(),
+          new MacdonaldFarm()
   };
 
   public static void main(String[] args) {
