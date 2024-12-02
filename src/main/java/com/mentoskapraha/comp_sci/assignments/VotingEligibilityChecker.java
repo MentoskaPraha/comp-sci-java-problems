@@ -37,7 +37,6 @@ public class VotingEligibilityChecker extends Assignment {
         System.out.println("You are eligible to vote in " + country + ".");
       } else {
         System.out.println("You are not eligible to vote in " + country + ", because" + (!citizenship ? " you need citizenship in the country you're voting in" : "") + ((!citizenship && ageFailed) ? " and" : "") + (ageFailed ? " you are not of voting age" : "") + ".");
-
       }
 
       //ask if you want to exit or not

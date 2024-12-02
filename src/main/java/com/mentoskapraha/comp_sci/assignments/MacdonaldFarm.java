@@ -23,7 +23,7 @@ public class MacdonaldFarm extends Assignment {
    * @param animal The animal that's in the verse, for example: 'cow'
    * @param animalSound The sound the animal make, for example: 'moo'
    */
-  private void outputVerse(String animal, String animalSound){
+  private static void outputVerse(String animal, String animalSound){
     System.out.println("Old MacDonald had a farm, E-I-E-I-O,\n" +
             "And on his farm he had a " + animal + ", E-I-E-I-O,\n" +
             "With a " + animalSound + "-" + animalSound + " here and a " + animalSound + "-" + animalSound + " there,\n" +

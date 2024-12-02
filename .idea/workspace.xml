@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b973fc8d-d723-4620-a849-8ca369c0c486" name="Changes" comment="Added testing">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/assignments/MacdonaldFarm.java" afterDir="false" />
+    <list default="true" id="b973fc8d-d723-4620-a849-8ca369c0c486" name="Changes" comment="Finished Macdonald Task">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/assignments/ScrabbleScorer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/AssignmentDevTemplate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/assignments/MacdonaldFarm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/assignments/MacdonaldFarm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/assignments/VotingEligibilityChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/assignments/VotingEligibilityChecker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +54,7 @@
     <setting file="file://$PROJECT_DIR$/src/main/java/com/mentoskapraha/comp_sci/assignments/SimpleLoginSystem.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -302,7 +303,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727105627463</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Finished Macdonald Task">
+      <option name="closed" value="true" />
+      <created>1733155672946</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1733155672946</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -321,6 +330,7 @@
     <MESSAGE value="Finished Simple Login System." />
     <MESSAGE value="Fixed some issues" />
     <MESSAGE value="Reworked to work on a single menu + bug fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reworked to work on a single menu + bug fixes" />
+    <MESSAGE value="Finished Macdonald Task" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished Macdonald Task" />
   </component>
 </project>

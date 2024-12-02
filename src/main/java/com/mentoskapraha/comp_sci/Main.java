@@ -27,7 +27,8 @@ public class Main {
           new BasicBankingSystem(),
           new PrimeNumberFinder(),
           new NumberCompareFunction(),
-          new MacdonaldFarm()
+          new MacdonaldFarm(),
+          new ScrabbleScorer()
   };
 
   public static void main(String[] args) {
