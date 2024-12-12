@@ -3,8 +3,11 @@ This is a collection of all the small assignments I was assigned in my IB DP Com
 
 To run an assignment simply run the Main class then select the one you wish to run.
 
+> [!WARNING]
+> The code here is meant to be for reference only. Please don't copy the code.
+
 ## Assignments
-The code in the `com.mentoskapraha.comp_sci.assignments` package are the solutions for the assignments and are to be used as a **REFERENCE ONLY**. **DO NOT COPY THE CODE!**
+The code in the `com.mentoskapraha.comp_sci.assignments` package are the solutions for the assignments.
 
 ### Assignments with External Git Repos
 - [Quadratic Solver](https://github.com/MentoskaPraha/comp-sci-java-quadratic_solver)
